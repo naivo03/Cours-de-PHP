@@ -1,0 +1,9 @@
+git init : transforme le dossier local en repository
+git pull : recupère les fichiers du repo sur le dossier/repo local, fusionne les codes sources 
+git status : fait état des lieux des fichiers que l'on a "add"
+git add . : charger les fichiers pour faire le commit, le point designe tous les fichiers dans le dossier courrant
+git commit -m "MON MESSAGE" : créer un repo local avec les fichiers que l'on a "add"
+
+git push "adresse_du_repo" "branche_du_repo"
+git push  https://github.com/naivo03/Cours-de-PHP.git master
+
