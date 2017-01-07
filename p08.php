@@ -30,7 +30,7 @@
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
-    <div class="container">
+    <div class="container"> 
 
       <div class="row row-offcanvas row-offcanvas-right">
 
