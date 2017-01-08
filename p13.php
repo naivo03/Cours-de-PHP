@@ -31,8 +31,12 @@ public function setName($name){ //il faut utiser le camel case en poo pour les n
 }
 
 $robot = new Robot(); //ici robot est un objet (non pas Robot dui est une classe!! atention!), un objet est l'instance d'une classe
-var_dump($robot);
 $robot->setName("toto");
-var_dump($robot->getName());
+
+$robot2 = $robot; //en PHP tout se fait par referrence et non pas par copie (ici en faisant $robot2 = $robot, $robot2 sera une reference de $robot)
+$robot2 = clone $robot; //si on veut copier le contenu de $robot il faut utiliser le mot clé clone
+var_dump($robot2);
+$robot2->setName("gigi");
+var_dump($robot2);
 var_dump($robot);
  ?>
