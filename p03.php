@@ -7,6 +7,7 @@ $tab[0.36] = 0; //les tableaux sont dites a syteme de #clé -> #valeur , usuelle
 
 //var_dump($tab);
 
+//foreach est la boucle que l'on utilise pour les tableaux
 
 /* Utilisation des clés textuelles */
 $sasuke = array();
