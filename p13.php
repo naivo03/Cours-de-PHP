@@ -34,7 +34,7 @@ $robot = new Robot(); //ici robot est un objet (non pas Robot dui est une classe
 $robot->setName("toto");
 
 $robot2 = $robot; //en PHP tout se fait par referrence et non pas par copie (ici en faisant $robot2 = $robot, $robot2 sera une reference de $robot)
-$robot2 = clone $robot; //si on veut copier le contenu de $robot il faut utiliser le mot clé clone
+$robot2 = clone $robot; //si on veut copier le contenu de $robot il faut utiliser le mot clé classkit_method_redefine(classname, methodname, args, code)
 var_dump($robot2);
 $robot2->setName("gigi");
 var_dump($robot2);
